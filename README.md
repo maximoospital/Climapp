@@ -13,7 +13,7 @@
 
 ![App Screenshot](https://i.imgur.com/mnUbaYn.png)
 
-![App Screenshot](https://i.imgur.com/ABecw2B.png)
+![App Screenshot](https://i.imgur.com/oDfo3xK.png)
 
 
 ## Libraries used
