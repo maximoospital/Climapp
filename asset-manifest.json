@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Climapp/static/css/main.5d8cfed7.css",
+    "main.js": "/Climapp/static/js/main.5f9d4894.js",
+    "static/js/787.01f48bee.chunk.js": "/Climapp/static/js/787.01f48bee.chunk.js",
+    "static/media/Poppins-Regular.ttf": "/Climapp/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "index.html": "/Climapp/index.html",
+    "main.5d8cfed7.css.map": "/Climapp/static/css/main.5d8cfed7.css.map",
+    "main.5f9d4894.js.map": "/Climapp/static/js/main.5f9d4894.js.map",
+    "787.01f48bee.chunk.js.map": "/Climapp/static/js/787.01f48bee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d8cfed7.css",
+    "static/js/main.5f9d4894.js"
+  ]
+}
