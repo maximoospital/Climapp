@@ -1,0 +1,31 @@
+if(dataSemanal.daily[6].weather[0].id === 800 & hours > 6 & hours < 20){
+                            dataSemanal.icon7 = "CLEAR_DAY";
+                            dataSemanal.daily[6].description = "Despejado"
+                        } else if(dataSemanal.daily[6].weather[0].id === 800 & hours < 6 & hours > 20){
+                            dataSemanal.icon7 = "CLEAR_NIGHT";
+                            dataSemanal.daily[6].description = "Despejado"
+                        } else if(dataSemanal.daily[6].weather[0].id === 801 & hours < 6 & hours > 20){
+                            dataSemanal.icon7 = "PARTLY_CLOUDY_NIGHT";
+                            dataSemanal.daily[6].description = "Parcialmente nublado"
+                        } else if (dataSemanal.daily[6].weather[0].id === 801 & hours > 6 & hours < 20) {
+                            dataSemanal.icon7 = "PARTLY_CLOUDY_DAY";
+                            dataSemanal.daily[6].description = "Parcialmente nublado"
+                        } else if (dataSemanal.daily[6].weather[0].id === 802 || dataSemanal.daily[6].weather[0].id === 803 || dataSemanal.daily[6].weather[0].id === 804 ){
+                            dataSemanal.icon7 = "CLOUDY";
+                            dataSemanal.daily[6].description = "Nublado"
+                        } else if (String(dataSemanal.daily[6].weather[0].id)[0] === '7'){
+                            dataSemanal.icon7 = "FOG";
+                            dataSemanal.daily[6].description = "Con niebla"
+                        } else if (String(dataSemanal.daily[6].weather[0].id)[0] === '6'){
+                            dataSemanal.icon7 = "SNOW";
+                            dataSemanal.daily[6].description = "Nevando"
+                        } else if (String(dataSemanal.daily[6].weather[0].id)[0] === '2'){
+                            dataSemanal.icon7 = "SLEET";
+                            dataSemanal.daily[6].description = "Tormentas"
+                        } else if (String(dataSemanal.daily[6].weather[0].id)[0] === '5' || String(dataSemanal.daily[6].weather[0].id)[0] === '3' ){
+                            dataSemanal.icon7 = "RAIN";
+                            dataSemanal.daily[6].description = "Lluvia"
+                        } else {
+                            dataSemanal.icon7 = "CLEAR_DAY";
+                            dataSemanal.daily[6].description = "Despejado"
+                        };
